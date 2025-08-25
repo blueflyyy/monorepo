@@ -2,3 +2,5 @@ packages:
   - "apps/*"
   - "packages/*" # 添加 Vue 项目
   - "tsconfig/*"
+
+node-linker: isolated
