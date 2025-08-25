@@ -1,0 +1,5 @@
+{
+  "name": "@repo/tsconfig/vue",
+  "version": "1.0.0",
+  "main": "tsconfig.json"
+}

@@ -1,5 +1,5 @@
 import Image, { type ImageProps } from "next/image";
-import { Button } from "@repo/ui/button";
+// import { Button } from "@repo/ui/button";
 import styles from "./page.module.css";
 
 type Props = Omit<ImageProps, "src"> & {
@@ -12,6 +12,7 @@ const ThemeImage = (props: Props) => {
 
   return (
     <>
+    <div>这是docs的应用</div>
       <Image {...rest} src={srcLight} className="imgLight" />
       <Image {...rest} src={srcDark} className="imgDark" />
     </>
@@ -63,9 +64,9 @@ export default function Home() {
             Read our docs
           </a>
         </div>
-        <Button appName="docs" className={styles.secondary}>
+        {/* <Button appName="docs" className={styles.secondary}>
           Open alert
-        </Button>
+        </Button> */}
       </main>
       <footer className={styles.footer}>
         <a
