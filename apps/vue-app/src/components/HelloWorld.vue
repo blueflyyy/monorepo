@@ -8,7 +8,7 @@ const count = ref(0)
 
 <template>
   <h1>{{ msg }}</h1>
-
+  <div>尝试git检出子项目</div>
   <div class="card">
     <button type="button" @click="count++">count is {{ count }}</button>
     <p>
